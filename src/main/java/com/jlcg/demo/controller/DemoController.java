@@ -19,6 +19,7 @@ public class DemoController {
 
 	@RequestMapping(value = "/ping", method = {RequestMethod.GET,RequestMethod.POST})
 	@ResponseStatus(value = HttpStatus.OK)
+	// Prueba Rafa
 	public PingResponse ping(@RequestParam(value = "input", required = true) String input) {
 		return new PingResponse(new Date(), input);
 	}
