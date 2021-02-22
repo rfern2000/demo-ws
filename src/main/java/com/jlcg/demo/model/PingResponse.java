@@ -6,6 +6,7 @@ public class PingResponse {
 
 	private final Date date;
 	private final String input;
+	public final String message;
 	
 	public PingResponse(Date date, String input) {
 		this.date = date;
